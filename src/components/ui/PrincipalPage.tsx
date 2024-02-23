@@ -7,6 +7,11 @@ import { SliderPrincipal } from "./principal/SliderPrincipal";
 import { MiddleSite } from "./principal/MiddleSite";
 import { GlutenFree } from "./principal/GlutenFree";
 import { PresentGirl } from "./principal/PresentGirl";
+import { VeganFood } from "./principal/VeganFood";
+import { VegeterianFood } from "./principal/VegeterianFood";
+import { BooksCook } from "./principal/BooksCook";
+import { FormRecetas } from "./principal/FormRecetas";
+import { Copiright } from "./principal/Copiright";
 
 
 
@@ -21,6 +26,12 @@ export const PrincipalPage = () => {
         <MiddleSite/>
         <GlutenFree/>
         <PresentGirl/>
+        <VeganFood/>
+        <VegeterianFood/>
+        <BooksCook/>
+        <FormRecetas/>
+        <Copiright/>
+        
     </div>
    </>
   )
