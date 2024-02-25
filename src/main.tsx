@@ -9,11 +9,32 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { GlutenFree } from './components/ui/categories/GlutenFree';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <App/>,
+  },
+  {
+    path: "/gluten-free",
+    element: <GlutenFree/>,
+  },
+  {
+    path: "/nut-free",
+    element: <App/>,
+  },
+  {
+    path: "/vegetarian",
+    element: <App/>,
+  },
+  {
+    path: "/vegan",
+    element: <App/>,
+  },
+  {
+    path: "/libre-de-lacteos",
     element: <App/>,
   },
 ]);
