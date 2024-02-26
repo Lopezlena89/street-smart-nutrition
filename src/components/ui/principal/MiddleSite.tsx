@@ -22,7 +22,7 @@ export const MiddleSite = () => {
                                 width="100%"
                                 alt="Granizado de arándanos con jalapeño y lima"
                                 className="w-[95%] m-1 object-cover h-[200px] sm:h-[300px] md:h-[400px]"
-                                src={`/assets/Cranberry-Granita-10.png`}
+                                src={`/assets/Cranberry-Granita-10.webp`}
                                 />
                             </CardBody>
                         </NavLink>
@@ -42,7 +42,7 @@ export const MiddleSite = () => {
                                 width="100%"
                                 alt="Fideos salteados de champiñones con ajo y jengibre"
                                 className="w-[95%] m-1 object-cover h-[200px] sm:h-[300px] md:h-[400px]"
-                                src={`/assets/Mushroom-Stir-Fry-Noodles-19.png`}
+                                src={`/assets/Mushroom-Stir-Fry-Noodles-19.webp`}
                                 />
                             </CardBody>
                         </NavLink>
@@ -62,7 +62,7 @@ export const MiddleSite = () => {
                                 width="100%"
                                 alt="Tacos de desayuno con huevos revueltos y salsa cremosa de aguacate"
                                 className="w-[95%] m-1 object-cover h-[200px] sm:h-[300px] md:h-[400px]"
-                                src={`/assets/Egg-Tacos-with-Spring-Veggies-1365x2048.png`}
+                                src={`/assets/Egg-Tacos-with-Spring-Veggies-1365x2048.webp`}
                                 />
                             </CardBody>
                         </NavLink>
@@ -82,7 +82,7 @@ export const MiddleSite = () => {
                                 width="100%"
                                 alt="Ensalada de fideos soba con cerdo y salsa de maní"
                                 className="w-[95%] m-1 object-cover h-[200px] sm:h-[300px] md:h-[400px]"
-                                src={`/assets/Pork-and-Soba-Noodle-Salad-22.png`}
+                                src={`/assets/Pork-and-Soba-Noodle-Salad-22.webp`}
                                 />
                             </CardBody>
                         </NavLink>

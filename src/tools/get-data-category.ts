@@ -10,7 +10,14 @@ export const getrecipe = (recipe:string) => {
   
     const data =  getDataRecipes.find((data)=>data.title === recipe);
     
-    return data!
+    return data
+    
+}
+export const getrecipedata = (recipe:string) => {
+  
+    const data =  getDataRecipes.find((data)=>data.title.includes(recipe));
+    
+    return data
     
 }
 

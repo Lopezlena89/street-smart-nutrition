@@ -25,7 +25,7 @@ interface Props {
 export const RecipesId = () => {
     const {name} = useParams()
     
-    const data:Props = getrecipe(name!);
+    const data:Props|any = getrecipe(name!);
     if(!data){
         return <Navigate to="/"/>
     }
@@ -55,7 +55,7 @@ export const RecipesId = () => {
                         <Image
                         width={400}
                             alt="NextUI hero Image"
-                            src={`/assets/${img}.png`}
+                            src={`/assets/${img}.webp`}
                             className="lg:col-span-1   "
                         />
                     </div>

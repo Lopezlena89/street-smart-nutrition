@@ -7,7 +7,7 @@ export const PrincipalSite = () => {
   return (
    <>
     <div className="w-full h-auto flex flex-col justify-start items-start lg:flex-row lg:h-[650px]">
-            <NavLink to="/recipes/Batido verde rico en proteínas (sin plátano)" className="w-full h-[500px] lg:h-[650px] lg:w-1/3 bg-[url('/assets/High-Protein-Green-Smoothie-No-Banana-2-728x1092.png')] bg-center bg-cover bg-no-repeat"/>
+            <NavLink to="/recipes/Batido verde rico en proteínas (sin plátano)" className="w-full h-[500px] lg:h-[650px] lg:w-1/3 bg-[url('/assets/High-Protein-Green-Smoothie-No-Banana-2-728x1092.webp')] bg-center bg-cover bg-no-repeat"/>
             <div className="w-full h-[500px] lg:h-[650px] lg:w-1/3 flex flex-col items-start p-5">
                 <div className="w-full h-1/6 ">
                     <nav className="w-full h-full flex items-end list-none  text-xs">
@@ -36,7 +36,7 @@ export const PrincipalSite = () => {
 
             </div>
             <div className="w-full h-[500px] lg:h-[650px] lg:w-1/3 ">
-                <NavLink to="/recipes/Cena en sartén Kielbasa con patatas Hasselback con queso"><div className="w-full h-2/3 bg-[url('/assets/Kielbasa-Sheet-Pan-09-728x1092.png')] bg-cover bg-no-repeat"/></NavLink>
+                <NavLink to="/recipes/Cena en sartén Kielbasa con patatas Hasselback con queso"><div className="w-full h-2/3 bg-[url('/assets/Kielbasa-Sheet-Pan-09-728x1092.webp')] bg-cover bg-no-repeat"/></NavLink>
 
                 
                 <div className="w-full h-1/3 bg-white">

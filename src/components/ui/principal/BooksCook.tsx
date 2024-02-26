@@ -9,7 +9,7 @@ export const BooksCook = () => {
         </div>
         <div className="w-full h-auto  grid grid-cols-1 sm:grid-cols-3">
             <div className="w-[1/3] h-auto  ">
-                <div className="w-full  min-h-[300px] md:min-h-[200px] p-5 bg-[url('/assets/cookbook-the-pescatarian-cookbook.png')] bg-center bg-cover bg-no-repeat"></div>
+                <div className="w-full  min-h-[300px] md:min-h-[200px] p-5 bg-[url('/assets/cookbook-the-pescatarian-cookbook.webp')] bg-center bg-cover bg-no-repeat"></div>
                 <div className="w-full h-auto p-5 flex flex-col">
                     <NavLink className="text-xl font-bold" 
                         to="https://www.amazon.com/Pescatarian-Cookbook-Essential-Kitchen-Companion/dp/1641522666/ref=as_li_ss_tl?crid=TTEERGAXRICU&keywords=the+pescatarian+cookbook+the+essential+kitchen+companion&qid=1540400698&sprefix=the+pescat,aps,242&sr=8-1-fkmr2&ref=sr_1_fkmr2_1&linkCode=sl1&tag=streetsmartnu-20&linkId=a947c37daa4901e9db75d9758d4a789d&language=en_US" target='_blank'>
@@ -25,7 +25,7 @@ export const BooksCook = () => {
                 </div>
             </div>
             <div className="w-[1/3] h-auto  ">
-                <div className="w-full min-h-[300px] md:min-h-[200px] p-5 bg-[url('/assets/cookbook-the-healing-soup.png')] bg-center bg-cover bg-no-repeat"></div>
+                <div className="w-full min-h-[300px] md:min-h-[200px] p-5 bg-[url('/assets/cookbook-the-healing-soup.webp')] bg-center bg-cover bg-no-repeat"></div>
                 <div className="w-full h-auto p-5 flex flex-col">
                     <NavLink className="text-xl font-bold" 
                         to="https://www.amazon.com/Healing-Soup-Cookbook-Recipes-Immunity/dp/1641526904/ref=as_li_ss_tl?dchild=1&keywords=cara+harbstreet&qid=1610554040&sr=8-1&linkCode=sl1&tag=streetsmartnu-20&linkId=bbfff392f219fd68d7799e1be988a3b4&language=en_US" target='_blank'>
@@ -41,7 +41,7 @@ export const BooksCook = () => {
                 </div>
             </div>
             <div className="w-[1/3] h-auto  ">
-                <div className="w-full  min-h-[300px] md:min-h-[200px] p-5 bg-[url('/assets/cookbook-healthy-eating-for-life.png')] bg-center bg-cover bg-no-repeat"></div>
+                <div className="w-full  min-h-[300px] md:min-h-[200px] p-5 bg-[url('/assets/cookbook-healthy-eating-for-life.webp')] bg-center bg-cover bg-no-repeat"></div>
                 <div className="w-full h-auto p-5 flex flex-col">
                     <NavLink className="text-xl font-bold" 
                         to="https://www.amazon.com/Healthy-Eating-Life-Intuitive-Workbook/dp/1641524901/?tag=streetsmartnu-20#web" target='_blank'>
@@ -64,12 +64,12 @@ export const BooksCook = () => {
                 </div>
             </div>
             <div className='w-full h-auto grid grid-cols-3 md:grid-cols-6 mt-5'>
-                <div className="w-[95%] h-[40px] bg-[url('/assets/press-bustle.png')]  bg-contain bg-no-repeat"></div>
-                <div className="w-[95%] h-[40px] bg-[url('/assets/press-forbes.png')]  bg-contain bg-no-repeat"></div>
-                <div className="w-[95%] h-[40px] bg-[url('/assets/press-outside.png')]  bg-contain bg-no-repeat"></div>
-                <div className="w-[95%] h-[40px] bg-[url('/assets/press-self.png')]  bg-contain bg-no-repeat"></div>
-                <div className="w-[95%] h-[40px] bg-[url('/assets/press-us-news.png')]  bg-contain bg-no-repeat"></div>
-                <div className="w-[95%] h-[40px] bg-[url('/assets/press-womens-health.png')]  bg-contain bg-no-repeat"></div>
+                <div className="w-[95%] h-[40px] bg-[url('/assets/press-bustle.webp')]  bg-contain bg-no-repeat"></div>
+                <div className="w-[95%] h-[40px] bg-[url('/assets/press-forbes.webp')]  bg-contain bg-no-repeat"></div>
+                <div className="w-[95%] h-[40px] bg-[url('/assets/press-outside.webp')]  bg-contain bg-no-repeat"></div>
+                <div className="w-[95%] h-[40px] bg-[url('/assets/press-self.webp')]  bg-contain bg-no-repeat"></div>
+                <div className="w-[95%] h-[40px] bg-[url('/assets/press-us-news.webp')]  bg-contain bg-no-repeat"></div>
+                <div className="w-[95%] h-[40px] bg-[url('/assets/press-womens-health.webp')]  bg-contain bg-no-repeat"></div>
             </div>
         </div>
 

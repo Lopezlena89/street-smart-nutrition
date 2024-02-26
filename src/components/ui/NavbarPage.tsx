@@ -1,19 +1,13 @@
-import { NavLink } from "react-router-dom"
-import { IoSearchOutline,IoReorderTwoOutline,IoClose } from "react-icons/io5";
+import { NavLink, Navigate } from "react-router-dom"
+import { IoReorderTwoOutline,IoClose } from "react-icons/io5";
 import { useState } from "react";
 
 
 export const NavbarPage = () => {
-    const [search, setSearch] = useState(false);
-    const [text, setText] = useState('');
+ 
     const [menu, setMenu] = useState(false)
  
-    const onSubmit = () =>{
-        if(text.length < 2)return;
-        console.log(text)
-        setText('')
-        setSearch(false)
-    }
+    
    
   return (
     <>
@@ -50,30 +44,10 @@ export const NavbarPage = () => {
                     </li>
                 </nav>
                 
-                <div 
-                    className={`mr-5 w-20 justify-center  items-center md:w-10 cursor-pointer `}
-                    onClick={()=>setSearch(!search)}    
-                >
-                    <IoSearchOutline size={20}/>
-                </div>
+              
                 
            </div>
-           <div className={`w-full h-[70px]  justify-center items-center bg-gray-100 ${search ?'flex':'hidden'} `}>
-                <form onSubmit={onSubmit}  className="w-10/12 h-[60%] bg-white border border-solid border-black relative flex items-center">
-                    <div className="w-[90%] h-full">
-                        <input 
-                            type="text" 
-                            placeholder="Buscar..." 
-                            value={text}
-                            className="w-full h-full outline-none ml-5" 
-                            onChange={({target})=>setText(target.value)}
-                        />
-                    </div>
-                    <button type="submit" className="absolute h-full w-[10%] right-0  flex justify-center items-center md:w-[5%]">
-                        <IoSearchOutline size={20} />
-                    </button>
-                </form>
-            </div>
+           
             <div className={`w-full h-auto bg-white ${menu?'block':'hidden'}`}>
                 <nav className="flex flex-col w-full justify-start items-start list-none font-medium text-[15px]  px-5 ">
                     <li className="mx-2">
