@@ -30,23 +30,23 @@ export const NavbarPage = () => {
                     }
                 </div>
                 <div className=" flex items-center justify-center font-thin w-full md:w-[35%]  ">
-                    <h1 className="title">Street Smart Nutrition</h1>
+                <NavLink to="/"><h1 className="title">Street Smart Nutrition</h1></NavLink>
                 </div>
                 <nav className=" hidden w-full justify-center items-center list-none font-medium text-[11px] md:flex ">
                     <li className="mx-2">
-                        <NavLink to="#">RECETAS</NavLink>
+                        <NavLink to="/recipes">RECETAS</NavLink>
                     </li>
                     <li className="mx-2">
-                        <NavLink to="#">NUTRICION SUAVE</NavLink>
+                        <NavLink to="/nut-free">SIN NUECES</NavLink>
                     </li>
                     <li className="mx-2">
-                        <NavLink to="#">ALIMENTACION INTUITIVA</NavLink>
+                        <NavLink to="/gluten-free">SIN GLUTEN</NavLink>
                     </li>
                     <li className="mx-2">
-                        <NavLink to="#">SIN GLUTEN</NavLink>
+                    <NavLink to="/vegetarian">VEGETARIANO</NavLink>
                     </li>
                     <li className="mx-2">
-                    <NavLink to="#">A BASE DE PLANTAS</NavLink>
+                    <NavLink to="/libre-de-lacteos">LIBRE DE LACTEOS</NavLink>
                     </li>
                 </nav>
                 
@@ -76,20 +76,20 @@ export const NavbarPage = () => {
             </div>
             <div className={`w-full h-auto bg-white ${menu?'block':'hidden'}`}>
                 <nav className="flex flex-col w-full justify-start items-start list-none font-medium text-[15px]  px-5 ">
-                    <li className="m-1">
-                        <NavLink to="#">RECETAS</NavLink>
+                    <li className="mx-2">
+                        <NavLink to="/recipes">RECETAS</NavLink>
                     </li>
-                    <li className="m-1">
-                        <NavLink to="#">NUTRICION SUAVE</NavLink>
+                    <li className="mx-2">
+                        <NavLink to="/nut-free">SIN NUECES</NavLink>
                     </li>
-                    <li className="m-1">
-                        <NavLink to="#">ALIMENTACION INTUITIVA</NavLink>
+                    <li className="mx-2">
+                        <NavLink to="/gluten-free">SIN GLUTEN</NavLink>
                     </li>
-                    <li className="m-1">
-                        <NavLink to="#">SIN GLUTEN</NavLink>
+                    <li className="mx-2">
+                    <NavLink to="/vegetarian">VEGETARIANO</NavLink>
                     </li>
-                    <li className="m-1">
-                    <NavLink to="#">A BASE DE PLANTAS</NavLink>
+                    <li className="mx-2">
+                    <NavLink to="/libre-de-lacteos">LIBRE DE LACTEOS</NavLink>
                     </li>
                 </nav>
             </div>

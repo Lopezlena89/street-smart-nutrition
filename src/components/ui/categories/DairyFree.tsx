@@ -2,14 +2,14 @@ import { getdatacategory } from "../../../tools/get-data-category";
 import { NavbarPage } from "../NavbarPage"
 import { BodyCategory } from "./BodyCategory";
 import { Encabezado } from "./Encabezado"
-import { glutenFree } from "../../data/text-categories"
+import { LibreDeLacteos } from "../../data/text-categories"
 import { Copiright, FormRecetas } from "../principal";
 
 
-export const GlutenFree = () => {
+export const DairyFree = () => {
 
-    const data = getdatacategory('Sin gluten')
-    const {title,subtitle} = glutenFree;
+    const data = getdatacategory('Libre de lácteos')
+    const {title,subtitle} = LibreDeLacteos;
 
   return (
     <>

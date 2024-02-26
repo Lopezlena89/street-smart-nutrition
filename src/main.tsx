@@ -9,7 +9,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { GlutenFree } from './components/ui/categories/GlutenFree';
+import { GlutenFree,NutFree,VegetarianPage,VeganPage,DairyFree,RecipesPage } from './components/ui/categories';
+import { RecipesId } from './components/ui/recipes/RecipesId';
+
+
+
 
 
 const router = createBrowserRouter([
@@ -23,19 +27,27 @@ const router = createBrowserRouter([
   },
   {
     path: "/nut-free",
-    element: <App/>,
+    element: <NutFree/>,
   },
   {
     path: "/vegetarian",
-    element: <App/>,
+    element: <VegetarianPage/>,
   },
   {
     path: "/vegan",
-    element: <App/>,
+    element: <VeganPage/>,
   },
   {
     path: "/libre-de-lacteos",
-    element: <App/>,
+    element: <DairyFree/>,
+  },
+  {
+    path: "/recipes",
+    element: <RecipesPage/>,
+  },
+  {
+    path: "/recipes/:name",
+    element: <RecipesId/>,
   },
 ]);
 

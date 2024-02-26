@@ -18,11 +18,10 @@ interface Props{
 }
 
 export const BodyCategory = ({data}:Props) => {
-    console.log(data)
+   
   return (
     <>
         <div className={`w-[95%] h-auto  m-1 z-0`}>
-            <div className={`w-full h-[70%] `}>
             <Card shadow="sm" isPressable onPress={() => console.log("item pressed")}>
                 <CardBody className="overflow-visible p-0">
                     <Image
@@ -40,10 +39,6 @@ export const BodyCategory = ({data}:Props) => {
                     <p className="text-default-500">{}</p>
                 </CardFooter>
             </Card>
-            </div>
-            <div>
-
-            </div>
         </div>
     </>
   )

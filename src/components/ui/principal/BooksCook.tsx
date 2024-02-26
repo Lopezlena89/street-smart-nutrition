@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const BooksCook = () => {
   return (
-    <div className="w-full min-h-[800px] md:min-h-[400px]  p-5 flex flex-col">
+    <div className="w-full min-h-[800px] md:min-h-[400px]  p-5 flex flex-col mt-10">
         <div className="w-full h-[100px] flex items-center">
             <h2 className="text-3xl">Mis libros de cocina</h2>
         </div>
