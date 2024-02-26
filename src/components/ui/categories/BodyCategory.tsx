@@ -23,7 +23,8 @@ export const BodyCategory = ({data}:Props|any) => {
   return (
     <>
         <div className={`w-[95%] h-auto  m-1 z-0`}>
-            <Card shadow="sm" isPressable onPress={() => console.log("item pressed")}>
+            <Card shadow="sm" isPressable onPress={() => console.log("item pressed")} 
+                className="w-full h-[300px] sm:h-[400px] md:h-[500px]">
                 <NavLink to={`/recipes/${data.title}`} className=" w-full h-full">
                     <CardBody className="overflow-visible p-0">
                         <Image

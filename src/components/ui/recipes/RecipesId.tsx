@@ -68,7 +68,7 @@ export const RecipesId = () => {
                             <div className="w-full h-[75px] grid grid-cols-3">
                                 <div className="w-full h-auto flex  justify-between ">
                                     <div className="flex flex-col justify-center items-center w-[99%]">
-                                        <span className="text-sm">Tiempo de preparación</span>
+                                        <span className="text-sm text-center">Tiempo de preparación</span>
                                         <span className="font-bold">{tiempoPreparacion}</span>
                                     </div>
                                     <div className="h-full flex items-center">
@@ -77,7 +77,7 @@ export const RecipesId = () => {
                                 </div>
                                 <div className="w-full h-auto flex  justify-between ">
                                     <div className="flex flex-col justify-center items-center w-[99%]">
-                                        <span className="text-sm">Hora de cocinar</span>
+                                        <span className="text-sm text-center">Hora de cocinar</span>
                                         <span className="font-bold">{horaCocinar}</span>
                                     </div>
                                     <div className="h-full flex items-center">
@@ -86,7 +86,7 @@ export const RecipesId = () => {
                                 </div>
                                 <div className="w-full h-auto flex  justify-between ">
                                     <div className="flex flex-col justify-center items-center w-[99%]">
-                                        <span className="text-sm">Tiempo total</span>
+                                        <span className="text-sm text-center">Tiempo total</span>
                                         <span className="font-bold">{TiempoTotal}</span>
                                     </div>
                                     
